@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Andika New Basic',sans-serif ;
+    list-style: none;
+    text-decoration: none;
+}
+.container-img {
+    width: 100%;
+    background-image: url(./img/image_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+   
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    opacity: 0.5;
+    height: 800px;
+   
+}
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; 
+   
+    
+}
+.nav-item {
+    width: 10%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.nav-item a {
+    color: white;
+}
+.nav-item a:hover {
+    color: rgb(255, 214, 80);
+    transition:color .3s;
+    border-bottom: 3px solid rgb(255, 214, 80);
+    transition:border .1s ;
+}
+.home {
+    width:100% ;
+    color: white;
+    text-align: center;
+    margin-top: 300px
+}
+.home p {
+    font-size: 60px;
+    color: white;
+}
+.home strong {
+    font-size: 80px;
+    color: white;
+}
+.home h3 {
+    color: rgb(189, 189, 189);
+}
+/*portfolio*/
+
+.background {
+    background-color: rgb(17, 16, 16);
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+   
+}
+.portfolio-info {
+   
+    width: 1140px;
+}
+.portfolio-nav {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.portfolio-navbar {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.portfolio-navbar a {
+    color: white;
+}
+.portfolio-navbar a:hover {
+    color: rgb(255, 214, 80);
+    transition: .4s;
+}
+.navbar-menu {
+   width: 10%;
+   display: inline-block; 
+  
+}
+.portfolio-img {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;margin-top: 30px;
+}
+.navbar-img {
+    width: 33%;
+    display: inline-block;
+}
+.navbar-img h5 {
+    font-size: 19px;
+    color: white;
+    margin-top: 10px;
+}
+.navbar-img p {
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.nav-info {
+    display: inline-block;
+    width: 100%;
+}
+.resume-info {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.resume-navbar {
+    margin: 0 auto;
+   
+}
+.resume-nav1 {
+    width: 40%;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+}
+.resume-nav {
+    width: 40%;
+    display: inline-block;
+    color: white;
+    background-color: rgb(63, 60, 60);
+    padding-left: 30px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.main-resume {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.main-resume h4 {
+    color: rgb(235, 215, 37);
+    padding-top: 5px;
+}
+.main-resume h5 {
+    color: rgb(158, 158, 158);
+    padding-top: 5px;
+}
+.main-resume h6 {
+    color: rgb(119, 118, 118);
+    padding-top: 7px;
+    font-size: 12px;
+}
+/*about*/
+.about-info {
+    width: 100%;
+    display: inline-block;
+}
+.about-nav {
+    width: 45%;
+    color: white;
+    display: inline-block;
+    margin-left: 50px;
+  
+}
+.about-nav1 {
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 50px;
+    display: inline-block;
+}
+p {
+    color: rgb(119, 118, 118);
+}
+.about-navbar {
+    display: inline-block;
+    width: 100%;
+}
+.about-home {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background-color: rgb(127, 223, 64);
+}
+.about-home a {
+    color:white ;
+}
+.about-home:hover {
+    background-color: green;
+    transition: .4s;
+}
+.about-home1 {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px 30px;
+    background-color: rgba(72, 72, 87, 0.925);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.about-home1 a {
+    color: white;
+}
+.about-home1:hover {
+    background-color: rgb(37, 35, 43);
+    transition: .4s;
+}
+/*testimonial*/
+.testimonial-items {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.testimonial-info {
+    width: 100%;
+
+}
+.testimonial-navbar {
+    width: 10%;
+    display: inline-block;
+   
+    
+}
+.testimonial-navbar img {
+    border-radius: 50%;
+    margin-bottom:107px;
+    margin-left: 10px;
+}
+.testimonial-nav {
+    width:35% ;
+    display: inline-block;
+    background-color: rgb(63, 60, 60);
+    margin-top: 40px;
+}
+.testimonial-nav p {
+    padding: 10px 15px;
+}
+.medium {
+    width: 100%;
+    display: flex;
+    
+}
+.media-info {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+h4 {
+    color: white;
+    padding-top: 15px;
+}
+
+.media-nav {
+    width: 33%;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+}
+/*contact*/
+.contact-home {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.touch {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.contact-info {
+    width: 50%;
+    margin-top: 10px;
+   
+}
+.input {
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(72, 72, 87, 0.925);
+}
+ 
+.contact-info h3 {
+    color: white;
+}
+.contact-info h5 {
+    color: rgb(33, 116, 240);
+}
+.send {
+    display: inline;
+    background-color: rgb(127, 226, 34);
+    padding:5px 20px;
+    border-radius: 16px;
+    margin-top: 50px; 
+   
+}
+.send a {
+    color: white;
+}
+.send:hover {
+    background-color: rgb(94, 163, 3);
+    transition: .4s;
+}
+.main_footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+.footer-icons {
+    width: 7%;
+   
+}
+
+.footer-icons a:hover {
+    background-color: rgb(119, 118, 118)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
